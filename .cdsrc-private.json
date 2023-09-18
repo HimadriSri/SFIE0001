@@ -1,0 +1,19 @@
+{
+  "requires": {
+    "db": {
+      "binding": {
+        "type": "cf",
+        "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+        "org": "bbf21d81trial",
+        "space": "dev",
+        "instance": "zsfie0001-db",
+        "key": "zsfie0001-db-key",
+        "resolved": false
+      },
+      "kind": "hana",
+      "vcap": {
+        "name": "db"
+      }
+    }
+  }
+}

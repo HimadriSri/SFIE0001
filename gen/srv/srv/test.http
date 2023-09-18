@@ -1,0 +1,13 @@
+### Get request
+GET http://localhost:4004/catalog/ZT00_FI_IZANAI
+
+### Post request
+POST http://localhost:4004/catalog/ZT00_FI_IZANAI
+Content-Type: application/json 
+
+{
+   "Bukrs": "JP2",
+   "PO_Number": "1101",
+   "PO_Item_No": "20"
+
+}
